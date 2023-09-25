@@ -7,7 +7,7 @@ const Navbar = () => {
         <img src={"https://i.ibb.co/PQDtb0K/Logo.png"} alt="" className="h-16" />
       </div>
       <ul className="flex gap-10 mr-10">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/donation">Donation</Link>
         <Link to="/statistics">Statistics</Link>
       </ul>

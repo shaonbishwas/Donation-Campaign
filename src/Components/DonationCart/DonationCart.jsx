@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
-import { setToLocalStorage } from '../../Utilities/CommonFuctions';
 
 const DonationCart = ({campaign}) => {
     const { id, title, category, banner, textColor, backgroundColor, cBg} = campaign;
     const navigate = useNavigate();
     const handleClick = ()=>{
-        setToLocalStorage('campaigns', campaign.id)
         navigate(`/selectedDonation/${id}`)
     }
     return (

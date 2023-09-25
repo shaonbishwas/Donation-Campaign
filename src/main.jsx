@@ -7,32 +7,38 @@ import Home from './Pages/Home/Home.jsx'
 import Donation from './Pages/Donation/Donation.jsx'
 import Statistics from './Pages/Statistics/Statistics.jsx'
 import SelectedDonation from './Components/SelectedDonation/SelectedDonation'
+import Error from './Components/Error/Error'
 
 
 const router = createBrowserRouter([
 {
   path: "/",
   element: <MainPage></MainPage>,
+  errorElement: <Error path={'/'}></Error>,
   children: [
     {
       path:"/",
       element: <Home></Home>,
-      loader: ()=> fetch('data.json')
+      loader: ()=> fetch('data.json'),
+      errorElement: <Error path={'/'}></Error>
     },
     {
       path:"/donation",
       element: <Donation></Donation>,
-      loader: ()=> fetch('data.json')
+      loader: ()=> fetch('data.json'),
+      errorElement: <Error path={'/donation'}></Error>
     },
     {
       path:"/statistics",
       element: <Statistics></Statistics>,
-      loader: ()=> fetch('data.json')
+      loader: ()=> fetch('data.json'),
+      errorElement: <Error path={'/statistics'}></Error>
     },
     {
       path:"/selectedDonation/:id",
       element: <SelectedDonation></SelectedDonation>,
-      loader: ()=> fetch('data.json')
+      loader: ()=> fetch('data.json'),
+      errorElement: <Error path={'/'}></Error>
     }
   ]
 }

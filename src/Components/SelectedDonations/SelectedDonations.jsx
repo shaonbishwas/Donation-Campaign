@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const SelectedDonations = ({ data }) => {
   const { backgroundColor, cBg, textColor, banner, category, title } = data;
   return (
-    <div className="flex rounded-xl" style={{ backgroundColor: backgroundColor }}>
+    <div className="flex lg:flex-row md:flex-row flex-col rounded-xl pb-2" style={{ backgroundColor: backgroundColor }}>
       <div>
-        <img src={banner} alt="" className="w-[250px] h-[170px] rounded-s-xl" />
+        <img src={banner} alt="" className="lg:w-[250px] lg:h-[170px] rounded-s-xl " />
       </div>
       <div className="ml-5 mt-5">
         <h1>

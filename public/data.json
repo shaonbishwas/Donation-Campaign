@@ -10,6 +10,66 @@
     "cBg": "#0052FF33"
   },
   {
+    "id": 9,
+    "category": "Education",
+    "title": "Support Education for All",
+    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
+    "description": "Give the gift of education to children in underserved communities. Your donation can help build schools, provide books, and ensure that every child has access to quality education.",
+    "textColor": "#FF444A",
+    "backgroundColor": "#FF444A26",
+    "cBg": "#FF444A33"
+  },
+  {
+    "id": 15,
+    "category": "Clothing",
+    "title": "School Uniforms for Children",
+    "banner": "https://i.ibb.co/0B9rRbL/Clothing.png",
+    "description": "Provide school uniforms to children to help them attend school with pride. Your donation can remove barriers to education for these young learners.",
+    "textColor": "#79C23F",
+    "backgroundColor": "#79C23F26",
+    "cBg": "#79C23F33"
+  },
+  {
+    "id": 5,
+    "category": "Food",
+    "title": "Feed the Hungry",
+    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
+    "description": "Provide nutritious meals to those in need. Your donation can help fight hunger and ensure that no one goes to bed hungry. Together, we can make a difference in the lives of the less fortunate.",
+    "textColor": "#F87147",
+    "backgroundColor": "#F8714726",
+    "cBg": "#F8714733"
+  },
+  {
+    "id": 7,
+    "category": "Food",
+    "title": "Nutrition for Children",
+    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
+    "description": "Support programs that provide nutritious meals to underprivileged children. Your donation can improve their health and help them thrive.",
+    "textColor": "#F87147",
+    "backgroundColor": "#F8714726",
+    "cBg": "#F8714733"
+  },
+  {
+    "id": 14,
+    "category": "Clothing",
+    "title": "Dress for Success",
+    "banner": "https://i.ibb.co/0B9rRbL/Clothing.png",
+    "description": "Support individuals in need of professional attire to excel in job interviews and their careers. Your donation can empower them to achieve success.",
+    "textColor": "#79C23F",
+    "backgroundColor": "#79C23F26",
+    "cBg": "#79C23F33"
+  },
+  {
+    "id": 10,
+    "category": "Education",
+    "title": "Scholarships for Bright Minds",
+    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
+    "description": "Empower talented students with scholarships to pursue higher education. Your support can transform their lives and create future leaders.",
+    "textColor": "#FF444A",
+    "backgroundColor": "#FF444A26",
+    "cBg": "#FF444A33"
+  },
+  {
     "id": 2,
     "category": "Health",
     "title": "Support Mental Health Awareness",
@@ -30,91 +90,11 @@
     "cBg": "#0052FF33"
   },
   {
-    "id": 4,
-    "category": "Health",
-    "title": "Support COVID-19 Vaccination Campaign",
-    "banner": "https://i.ibb.co/KWPqzwX/Health.png",
-    "description": "Help us combat the COVID-19 pandemic by supporting vaccination efforts. Your donation will enable the distribution of vaccines to vulnerable communities and contribute to the global effort to end the pandemic.",
-    "textColor": "#0052FF",
-    "backgroundColor": "#0052FF26",
-    "cBg": "#0052FF33"
-  },
-  {
-    "id": 5,
-    "category": "Food",
-    "title": "Feed the Hungry",
-    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
-    "description": "Provide nutritious meals to those in need. Your donation can help fight hunger and ensure that no one goes to bed hungry. Together, we can make a difference in the lives of the less fortunate.",
-    "textColor": "#F87147",
-    "backgroundColor": "#F8714726",
-    "cBg": "#F8714733"
-  },
-  {
-    "id": 6,
-    "category": "Food",
-    "title": "Support Local Food Banks",
-    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
-    "description": "Contribute to local food banks and help them provide food to families facing food insecurity. Your donation can help ensure that everyone has access to a nutritious meal.",
-    "textColor": "#F87147",
-    "backgroundColor": "#F8714726",
-    "cBg": "#F8714733"
-  },
-  {
-    "id": 7,
-    "category": "Food",
-    "title": "Nutrition for Children",
-    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
-    "description": "Support programs that provide nutritious meals to underprivileged children. Your donation can improve their health and help them thrive.",
-    "textColor": "#F87147",
-    "backgroundColor": "#F8714726",
-    "cBg": "#F8714733"
-  },
-  {
-    "id": 8,
-    "category": "Food",
-    "title": "Emergency Food Relief",
-    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
-    "description": "Help provide emergency food relief to communities affected by disasters and crises. Your donation can save lives during times of need.",
-    "textColor": "#F87147",
-    "backgroundColor": "#F8714726",
-    "cBg": "#F8714733"
-  },
-  {
-    "id": 9,
-    "category": "Education",
-    "title": "Support Education for All",
-    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
-    "description": "Give the gift of education to children in underserved communities. Your donation can help build schools, provide books, and ensure that every child has access to quality education.",
-    "textColor": "#FF444A",
-    "backgroundColor": "#FF444A26",
-    "cBg": "#FF444A33"
-  },
-  {
-    "id": 10,
-    "category": "Education",
-    "title": "Scholarships for Bright Minds",
-    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
-    "description": "Empower talented students with scholarships to pursue higher education. Your support can transform their lives and create future leaders.",
-    "textColor": "#FF444A",
-    "backgroundColor": "#FF444A26",
-    "cBg": "#FF444A33"
-  },
-  {
     "id": 11,
     "category": "Education",
     "title": "Digital Learning for Underserved Communities",
     "banner": "https://i.ibb.co/ysJJRXD/Education.png",
     "description": "Bridge the digital divide by providing access to online learning resources for underserved communities. Your donation can help students continue their education in a digital world.",
-    "textColor": "#FF444A",
-    "backgroundColor": "#FF444A26",
-    "cBg": "#FF444A33"
-  },
-  {
-    "id": 12,
-    "category": "Education",
-    "title": "Educational Supplies for Schools",
-    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
-    "description": "Equip schools with essential supplies such as books, computers, and teaching materials. Your contribution can enhance the learning experience for students.",
     "textColor": "#FF444A",
     "backgroundColor": "#FF444A26",
     "cBg": "#FF444A33"
@@ -130,24 +110,24 @@
     "cBg": "#79C23F33"
   },
   {
-    "id": 14,
-    "category": "Clothing",
-    "title": "Dress for Success",
-    "banner": "https://i.ibb.co/0B9rRbL/Clothing.png",
-    "description": "Support individuals in need of professional attire to excel in job interviews and their careers. Your donation can empower them to achieve success.",
-    "textColor": "#79C23F",
-    "backgroundColor": "#79C23F26",
-    "cBg": "#79C23F33"
+    "id": 6,
+    "category": "Food",
+    "title": "Support Local Food Banks",
+    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
+    "description": "Contribute to local food banks and help them provide food to families facing food insecurity. Your donation can help ensure that everyone has access to a nutritious meal.",
+    "textColor": "#F87147",
+    "backgroundColor": "#F8714726",
+    "cBg": "#F8714733"
   },
   {
-    "id": 15,
-    "category": "Clothing",
-    "title": "School Uniforms for Children",
-    "banner": "https://i.ibb.co/0B9rRbL/Clothing.png",
-    "description": "Provide school uniforms to children to help them attend school with pride. Your donation can remove barriers to education for these young learners.",
-    "textColor": "#79C23F",
-    "backgroundColor": "#79C23F26",
-    "cBg": "#79C23F33"
+    "id": 8,
+    "category": "Food",
+    "title": "Emergency Food Relief",
+    "banner": "https://i.ibb.co/4p9tyfQ/Food.png",
+    "description": "Help provide emergency food relief to communities affected by disasters and crises. Your donation can save lives during times of need.",
+    "textColor": "#F87147",
+    "backgroundColor": "#F8714726",
+    "cBg": "#F8714733"
   },
   {
     "id": 16,
@@ -158,5 +138,25 @@
     "textColor": "#79C23F",
     "backgroundColor": "#79C23F26",
     "cBg": "#79C23F33"
+  },
+  {
+    "id": 12,
+    "category": "Education",
+    "title": "Educational Supplies for Schools",
+    "banner": "https://i.ibb.co/ysJJRXD/Education.png",
+    "description": "Equip schools with essential supplies such as books, computers, and teaching materials. Your contribution can enhance the learning experience for students.",
+    "textColor": "#FF444A",
+    "backgroundColor": "#FF444A26",
+    "cBg": "#FF444A33"
+  },
+  {
+    "id": 4,
+    "category": "Health",
+    "title": "Support COVID-19 Vaccination Campaign",
+    "banner": "https://i.ibb.co/KWPqzwX/Health.png",
+    "description": "Help us combat the COVID-19 pandemic by supporting vaccination efforts. Your donation will enable the distribution of vaccines to vulnerable communities and contribute to the global effort to end the pandemic.",
+    "textColor": "#0052FF",
+    "backgroundColor": "#0052FF26",
+    "cBg": "#0052FF33"
   }
 ]

@@ -8,7 +8,7 @@ const DonationCart = ({campaign}) => {
         navigate(`/selectedDonation/${id}`)
     }
     return (
-        <div className="w-[312px] rounded-lg" style={{backgroundColor: backgroundColor}} onClick={handleClick}>
+        <div className="w-[312px] rounded-lg mx-auto my-3 md:my-3" style={{backgroundColor: backgroundColor}} onClick={handleClick}>
             <div>
                 <img src={banner} alt="" className='w-[312px] h-[194px]' />
             </div>

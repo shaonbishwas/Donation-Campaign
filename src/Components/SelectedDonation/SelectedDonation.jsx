@@ -1,4 +1,4 @@
-import { useLoaderData, useNavigate, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import { setToLocalStorage } from "../../Utilities/CommonFuctions";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -16,7 +16,6 @@ const SelectedDonation = () => {
         progress: undefined,
         theme: "light",
         });
-  const navigate = useNavigate();
   const datas = useLoaderData();
   const { id } = useParams();
   const idInt = parseInt(id);
@@ -29,15 +28,15 @@ const SelectedDonation = () => {
 
   return (
     <div>
-      <div className="w-[1000px] mx-auto my-10">
-        <div className="relative">
+      <div className=" md:w-4/5 lg:w-[1000px] md:mx-auto lg:mx-auto my-10 w-auto mx-2">
+        <div className="relative border">
           <img
             src={item.banner}
             alt=""
-            className="w-[1000px] h-[500px] mx-auto"
+            className="lg:w-[1000px] lg:h-[500px] md:w-full w-full mx-auto"
           />
           <div
-            className="absolute bottom-0 w-full h-16"
+            className="absolute bottom-0 w-full md:mx-auto h-16"
             style={{ backgroundColor: "black", opacity: 0.5 }}
           ></div>
           <button className="py-2 px-4 rounded ml-8 absolute bottom-3" onClick={handleDonateClick} style={{backgroundColor: item.textColor, color: "#FFFFFF"}}>Donate</button>

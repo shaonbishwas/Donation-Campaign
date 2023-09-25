@@ -5,7 +5,7 @@
     "title": "Help Fight Childhood Cancer",
     "banner": "https://i.ibb.co/KWPqzwX/Health.png",
     "description": "Join us in the fight against childhood cancer. Your donation can make a real difference in the lives of young cancer patients and their families. Together, we can provide them with hope and support on their journey to recovery.",
-    "textColor": "text-[#0052FF]",
+    "textColor": "#0052FF",
     "backgroundColor": "#0052FF26",
     "cBg": "#0052FF33"
   },
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "category": "Health",
-    "title": "Help Fight Hunger in Developing Countries",
+    "title": "Help Fight Hunger",
     "banner": "https://i.ibb.co/KWPqzwX/Health.png",
     "description": "Millions of people in developing countries face hunger daily. Your donation can provide essential food and nutrition to those in need, saving lives and improving overall health. Join us in the fight against global hunger.",
     "textColor": "#0052FF",

@@ -8,10 +8,6 @@ import Donation from './Pages/Donation/Donation.jsx'
 import Statistics from './Pages/Statistics/Statistics.jsx'
 import SelectedDonation from './Components/SelectedDonation/SelectedDonation'
 
-let cartDetails;
-const donationClickHandle = (cart)=>{
-  cartDetails = cart;
-}
 
 const router = createBrowserRouter([
 {
@@ -19,8 +15,8 @@ const router = createBrowserRouter([
   element: <MainPage></MainPage>,
   children: [
     {
-      path:"/",
-      element: <Home donationClickHandle={donationClickHandle}></Home>,
+      path:"/home",
+      element: <Home></Home>,
       loader: ()=> fetch('data.json')
     },
     {
@@ -34,8 +30,9 @@ const router = createBrowserRouter([
       loader: ()=> fetch('data.json')
     },
     {
-      path:"/selectedDonation",
-      element: <SelectedDonation cartDetails={cartDetails}></SelectedDonation>
+      path:"/selectedDonation/:id",
+      element: <SelectedDonation></SelectedDonation>,
+      loader: ()=> fetch('data.json')
     }
   ]
 }

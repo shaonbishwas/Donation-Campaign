@@ -2,10 +2,10 @@ import { useLoaderData } from "react-router-dom";
 import DonationCart from "../../Components/DonationCart/DonationCart";
 
 
-const Home = ({donationClickHandle}) => {
+const Home = () => {
     const campaigns = useLoaderData();
     return (
-        <div>
+        <div className="mb-10">
             <div className="text-center">
                 <h1 className="text-3xl font-bold">I Grow By Helping People In Need</h1>
                 <input type="text" placeholder="Search here.." className="border rounded-s-md p-2" />
@@ -13,7 +13,7 @@ const Home = ({donationClickHandle}) => {
             </div>
             <div className="grid grid-cols-4 gap-5 mt-10 max-w-[1400px] mx-auto">
             {
-                campaigns.map(campaign => <DonationCart key={campaign.id} campaign={campaign} donationClickHandle={donationClickHandle}></DonationCart>)
+                campaigns.map(campaign => <DonationCart key={campaign.id} campaign={campaign}></DonationCart>)
             }
             </div>
         </div>

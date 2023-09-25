@@ -20,7 +20,7 @@ const Donation = () => {
   };
   return (
     <div>
-      <div className="grid grid-cols-2 gap-5 max-w-[1400px] mx-auto">
+      <div className="grid grid-cols-2 gap-5 max-w-[1400px] mx-auto my-10">
         {newData.slice(0, conData).map((data) => (
           <SelectedDonations key={data.id} data={data}></SelectedDonations>
         ))}

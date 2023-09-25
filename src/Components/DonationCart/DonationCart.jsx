@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import { setToLocalStorage } from '../../Utilities/CommonFuctions';
 
 const DonationCart = ({campaign}) => {
-    const {title, category, banner, textColor, backgroundColor, cBg} = campaign;
+    const { id, title, category, banner, textColor, backgroundColor, cBg} = campaign;
     const navigate = useNavigate();
     const handleClick = ()=>{
         setToLocalStorage('campaigns', campaign.id)
-        navigate("/selectedDonation")
+        navigate(`/selectedDonation/${id}`)
     }
     return (
         <div className="w-[312px] rounded-lg" style={{backgroundColor: backgroundColor}} onClick={handleClick}>

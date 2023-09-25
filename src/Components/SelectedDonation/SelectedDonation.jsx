@@ -25,7 +25,6 @@ const SelectedDonation = () => {
   const handleDonateClick = ()=>{
     notify()
     setToLocalStorage('campaigns', idInt);
-    navigate('/')
   }
 
   return (

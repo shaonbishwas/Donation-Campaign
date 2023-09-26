@@ -42,7 +42,7 @@ const SelectedDonation = () => {
             onClick={handleDonateClick}
             style={{ backgroundColor: item.textColor, color: "#FFFFFF" }}
           >
-            Donate
+            Donate {item.amount}
           </button>
         </div>
         <h1 className="text-4xl font-bold my-3">{item.title}</h1>

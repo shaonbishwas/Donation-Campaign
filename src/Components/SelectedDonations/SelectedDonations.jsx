@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const SelectedDonations = ({ data }) => {
-  const { backgroundColor, cBg, textColor, banner, category, title } = data;
+  const { backgroundColor, cBg, textColor, banner, category, title, amount } = data;
   return (
     <div className="flex lg:flex-row md:flex-row flex-col rounded-xl pb-2" style={{ backgroundColor: backgroundColor }}>
       <div>
@@ -14,7 +14,8 @@ const SelectedDonations = ({ data }) => {
             {category}
           </span>
         </h1>
-        <h1 className="mt-2 font-semibold text-2xl">{title}</h1>
+        <h1 className="mt-2 font-semibold text-xl">{title}</h1>
+        <h1 className="font-bold" style={{color: textColor}}>{amount}</h1>
         <Link>
           <button className="py-2 px-3 rounded-lg mt-2" style={{ backgroundColor: textColor, color: "#FFFFFF" }}>
             ViewDetails

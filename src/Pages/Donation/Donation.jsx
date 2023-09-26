@@ -25,7 +25,7 @@ const Donation = () => {
           <SelectedDonations key={data.id} data={data}></SelectedDonations>
         ))}
       </div>
-      {conData !== newData.length && (
+      {(conData !== newData.length && newData.length > conData) &&  (
         <p className="text-center mt-10">
           <button
             className="bg-green-600 text-white py-2 px-3 rounded-md"

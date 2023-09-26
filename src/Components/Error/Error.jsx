@@ -8,6 +8,10 @@ const Error = ({ path }) => {
       {error && <Navigate to={path} replace={true} />}
       <h1 className="text-3xl">oops</h1>
       <p className="text-xl">You can fix it with a refresh</p>
+      <p className="text-xl">
+        for more information search on google you can fined some permanent
+        solutions
+      </p>
     </div>
   );
 };

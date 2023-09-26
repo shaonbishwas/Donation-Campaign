@@ -33,8 +33,9 @@ const renderCustomizedLabel = ({
 const Statistics = () => {
   const totalData = useLoaderData();
   const selectData = getFromLocalStorage("campaigns");
+
   const data = [
-    { name: "Total Donation", value: totalData.length },
+    { name: "Total Donation", value: totalData.length - selectData.length },
     { name: "Your Donation", value: selectData.length },
   ];
   return (
